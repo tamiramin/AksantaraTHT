@@ -1,7 +1,7 @@
 import cv2
 from pyzbar.pyzbar import decode
 
-img = cv2.imread('2.png')
+img = cv2.imread('../file pendukung/2.png')
 code = decode(img)
 
 for barcode in decode(img) : 
